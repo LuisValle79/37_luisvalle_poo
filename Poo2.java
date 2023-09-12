@@ -16,13 +16,20 @@ public class Poo2 {
      */
     public static void main(String[] args) {
        
-        persona objPersona = new persona();
+       /** persona objPersona = new persona();
             objPersona.metodo1();
             objPersona.metodo1("luis");
             objPersona.metodoInt();
             objPersona.metodoString();
-            objPersona.metodoBoolean();
-           
+            objPersona.metodoBoolean();*/
+            
+       calculadoras objCalculadora = new calculadoras();
+       
+            objCalculadora.restar(40,20);
+            objCalculadora.sumar(20);
+            objCalculadora.multiplicar(20);
+            
+            
             
     
         
